@@ -1,0 +1,32 @@
+
+/*----------------------------------*/
+
+footer{
+  height: 80px;
+  position : relative;
+  transform : translateY(-100%);
+
+  border-top: 1px solid salmon;
+}
+
+footer span{
+  color: salmon;
+}
+
+footer button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: chocolate;
+}
+footer button:hover{
+  color: rgb(250, 168, 110);
+}
+
+.text pre{
+  margin: 0%;
+  margin-top: 2%;
+  color: chocolate;
+  font-family: sans-serif;
+  font-size: smaller;
+}

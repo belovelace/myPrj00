@@ -1,0 +1,47 @@
+body{
+  background-color: antiquewhite;
+}
+
+/*---------------------*/
+header{
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+.ctg{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  justify-items: center;
+}
+
+.ctg button{
+  color: yellowgreen;
+  font-size: medium;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: fantasy;
+}
+.ctg button:hover{
+  color: rgb(113, 149, 40);
+}
+
+.title{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  margin: 3%;
+}
+
+.title pre{
+  font-size: 60px;
+  margin: 1%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: chocolate;
+
+  display: grid;
+  text-align: center;
+}
+
+

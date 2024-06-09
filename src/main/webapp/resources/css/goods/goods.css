@@ -1,0 +1,24 @@
+main{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.menu{
+  border: 3px solid chocolate;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.menu button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: chocolate;
+  font-family: fantasy;
+  font-size: medium;
+}
+
+.menu button:hover{
+  color: rgb(250, 168, 110);
+}
